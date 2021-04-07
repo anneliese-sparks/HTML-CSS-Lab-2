@@ -76,3 +76,74 @@ footer p {
     display: flex;
 }
 
+@media screen and (min-width: 768px) {
+
+    
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    
+        h1 {
+            float: left;
+        }
+
+        .nav-list { 
+            display: flex;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        nav .button {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 8px;
+            border-radius: 20px;
+            height: 100%;
+        }
+
+        .about {
+            width: 50%;
+        }
+
+        .circle-container {
+            position: relative;
+        }
+
+        .circle1 {
+            position: absolute;
+            right: 100px;
+            bottom: 20px;
+            background-color: rgba(247, 136, 167, 0.6);
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+        }
+
+        .circle2 {
+            position: absolute;
+            right: 10px;
+            bottom: -50px;
+            background-color: rgba(247, 193, 162, 0.7);
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+        }
+
+        .circle3 {
+            position: absolute;
+            right: 10px;
+            bottom: 60px;
+            background-color: rgba(207, 130, 213, 0.6);
+            border-radius: 50%;
+            height: 120px;
+            width: 120px;
+        }
+    
+    }
+
+
+
